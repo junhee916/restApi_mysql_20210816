@@ -1,0 +1,29 @@
+{
+  "name": "restapi_mysql_20210816",
+  "version": "1.0.0",
+  "description": "restApi_mysql_20210816",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junhee916/restApi_mysql_20210816.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junhee916/restApi_mysql_20210816/issues"
+  },
+  "homepage": "https://github.com/junhee916/restApi_mysql_20210816#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
